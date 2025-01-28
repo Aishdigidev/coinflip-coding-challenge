@@ -34,7 +34,7 @@ Build a web application that:
 1. Clone this repository
 2. Install dependencies:
 ```bash
-npm install
+npm install --legacy-peer-deps
 # or
 yarn install
 ```
@@ -47,20 +47,6 @@ yarn dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the starter template
-
-
-## How to Start
-
-Follow these steps to start the application:
-
-### Set up the project:
-1. Ensure that all dependencies are installed using `npm install` or `yarn install`.
-2. Verify the `NEXT_PUBLIC_API_URL` environment variable is properly configured in a `.env.local` file.
-
-### Run the App:
-1. Start the development server using `npm run dev` or `yarn dev`.
-2. Access the app in your browser at [http://localhost:3000](http://localhost:3000).
-
 
 ## API Information
 
